@@ -50,7 +50,13 @@ Using callbacks print the directions to make Steak in the correct order. Write y
 
 ```javascript
 addFood(steak[0], '#steak', () => {
-  // ... your code here
+  addFood(steak[1], "#steak", () => {
+    addFood(steak[2], "#steak", () => {
+      addFood(steak[3], "#steak", () => {
+        addFood(steak[4], "#steak", () => {
+          addFood(steak[5], "#steak", () => {
+            addFood(steak[6], "#steak", () => {
+              addFood(steak[7], "#steak", () => {
 });
 ```
 
